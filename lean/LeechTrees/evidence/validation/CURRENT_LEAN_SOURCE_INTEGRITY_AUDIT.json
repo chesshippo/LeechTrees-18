@@ -1,0 +1,24 @@
+{
+  "audited_at_utc": "2026-08-12T17:53:37.8197259Z",
+  "boundary": "Read-only lexical and byte-integrity replay; kernel validation is established separately by validation-003.",
+  "counts": {
+    "executable_equivalent_escape_hits": 0,
+    "executable_forbidden_hits": 0,
+    "kernel_decide": 1507,
+    "lean_sources": 72,
+    "lexical_errors": 0,
+    "noncomputable": 416,
+    "print_axioms_commands": 350,
+    "validated_lean_inputs": 72
+  },
+  "errors": [],
+  "noncode_notable_hits_by_location": {
+    "block_comment": 15
+  },
+  "result": "PASS_CURRENT_VALIDATED_SOURCE_INTEGRITY",
+  "schema": "leechtrees.current-source-integrity-audit.v1",
+  "source_manifest": {
+    "record_bytes": 8383,
+    "sha256": "b406623fe167701f4e1e6a9ec4e824cd4e0a72cef59b0211b9237740d2658bb6"
+  }
+}

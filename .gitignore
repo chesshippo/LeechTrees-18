@@ -1,0 +1,25 @@
+# Generated Lean and Lake output.
+**/.lake/
+**/*.olean
+**/*.ilean
+**/*.c.o
+
+# Python caches and local environments.
+**/__pycache__/
+**/*.py[cod]
+.venv/
+venv/
+
+# End-to-end and search run output.
+proof/.run/
+computation/evidence/full/
+evidence/verification_release/*/.run/
+
+# Local evidence downloads and materialization scratch space.
+release_assets/
+repository_support/.materialize-*/
+
+# Editor and operating-system debris.
+.DS_Store
+Thumbs.db
+*.swp

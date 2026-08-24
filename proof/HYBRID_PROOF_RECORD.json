@@ -1,0 +1,233 @@
+{
+  "schema": "LEECH18_HYBRID_END_TO_END_PROOF_V1",
+  "date": "2026-08-21",
+  "claim": "There is no positively weighted integral Leech tree on 18 vertices.",
+  "proof_kind": "hybrid computer-assisted proof",
+  "pure_lean_end_to_end": false,
+  "search_rerun_by_this_workflow": false,
+  "lean": {
+    "repository": "lean/LeechTrees",
+    "commit": "2747de53478568e580e364ddc685871d55dc6e7e",
+    "toolchain": "leanprover/lean4:v4.24.0",
+    "mathlib_commit": "f897ebcf72cd16f89ab4577d0c826cd14afaafc7",
+    "declarations": {
+      "eight_row_exhaustion": "LeechTrees.Foundation.FirstEdgeDossier.firstEdge_eightRowDossier",
+      "zero_certificate_boundary": "Leech18EndToEnd.no_order18_leech_of_all_rows"
+    },
+    "critical_files": {
+      "lean/LeechTrees/lean-toolchain": "42779d67b81608af8a12aa4328d2ab47ca201925b3b2bd68369587b5340bb434",
+      "lean/LeechTrees/lakefile.toml": "a4a03d7e06b30a76c1bdb84325a334aeb0f93ba22414a2aa9bdc3ca367f32304",
+      "lean/LeechTrees/lake-manifest.json": "e697cc24fa1a208a73cc80246d28d8ebf5ed330a250abfabc04253658e2549fc",
+      "lean/LeechTrees/LeechTrees/Expanded/FirstEdge/FirstEdgeDossier.lean": "0e53203e1475f6ba7875208cb95ac7e7ec5e67087a783a2ebe0eb38842720f45",
+      "proof/HybridEndToEndBoundary.lean": "06b472290018f0b23dec01c2d9aa6b0ecdb6fabe95bd63b719a0c1aa05868ab8"
+    }
+  },
+  "configuration_correspondence": [
+    {"paper_configuration": 1, "lean_row": "AdjacentNoneRow", "solver_row": 0, "next_weight": 5},
+    {"paper_configuration": 2, "lean_row": "AdjacentMeetsOneRow", "solver_row": 1, "next_weight": 6},
+    {"paper_configuration": 3, "lean_row": "AdjacentMeetsTwoRow", "solver_row": 2, "next_weight": 5},
+    {"paper_configuration": 4, "lean_row": "AdjacentMeetsBothRow", "solver_row": 3, "next_weight": 7},
+    {"paper_configuration": 5, "lean_row": "DisjointNoneRow", "solver_row": 4, "next_weight": 4},
+    {"paper_configuration": 6, "lean_row": "DisjointMeetsOneRow", "solver_row": 5, "next_weight": 5},
+    {"paper_configuration": 7, "lean_row": "DisjointMeetsTwoRow", "solver_row": 6, "next_weight": 4},
+    {"paper_configuration": 8, "lean_row": "DisjointMeetsBothRow", "solver_row": 7, "next_weight": 7}
+  ],
+  "evidence": {
+    "source_freeze": {
+      "path": "computation/evidence/production/exact_final_workspace/source/g001_terminal5_source_freeze_v1.json",
+      "sha256": "537fb0d163cc04e891d544d4e4accefdf5fdbb91cdbb20c54d05e4037abb852c",
+      "checksum_path": "computation/evidence/production/exact_final_workspace/source/G001_TERMINAL5_PRODUCTION_V1_SHA256SUMS.txt",
+      "checksum_sha256": "8d9a3a2fd9fd7efae2d1e819861816f44ea79cf5c03217b7ade9514893b4068f",
+      "full_replay_directory": "computation/evidence/full/g001_terminal5_candidate4_20260818T230000Z_workspace/source",
+      "distribution_files": 28
+    },
+    "runtime_source_validation": {
+      "path": "proof/verify_frozen_runtime_source.py",
+      "sha256": "5e237e0aef2c11a7fe1d77dac12fdcfdd10d7ff7cb65ad0e8743dcfa10cc8726",
+      "pinned_source_files": 8,
+      "compile_flags": ["-O2", "-std=c++20", "-Wall", "-Wextra", "-Wpedantic", "-Werror"],
+      "solver_regression_checks": 45,
+      "independent_checker_self_test_checks": 11,
+      "compiler_include_environment_sanitized": true,
+      "compiler_dynamic_environment_sanitized": true,
+      "compiler_rehashed_after_tests": true,
+      "binaries_rehashed_after_tests": true,
+      "source_rehashed_after_tests": true,
+      "output_tree_exact": true,
+      "production_binary_identity_claimed": false
+    },
+    "terminal_plan": {
+      "path": "computation/evidence/production/exact_final_workspace/plan/terminal5_plan_v1/terminal_plan_v1.json",
+      "sha256": "b317a3b7cef71e11fea762ce5e70322f168e06c6e04b97293f066cb2e313bdae",
+      "full_replay_path": "computation/evidence/full/g001_terminal5_candidate4_20260818T230000Z_workspace/plan/terminal5_plan_v1/terminal_plan_v1.json",
+      "full_manifest_path": "computation/evidence/full/g001_terminal5_candidate4_20260818T230000Z_workspace/plan/terminal5_plan_v1/plan_artifacts.sha256",
+      "full_manifest_sha256": "6b801a0dd08e0aa6d7e32903d7c223c822c7aa823e611348b2ba56e6babf3bee",
+      "full_receipt_path": "computation/evidence/full/g001_terminal5_candidate4_20260818T230000Z_workspace/plan/terminal5_plan_v1/plan_receipt.json",
+      "full_receipt_sha256": "519d242d628960a5d9401e325db3ea89298d33a8f262e55dceca056b06e27c11",
+      "regeneration": {
+        "builder_source_relative_path": "make_g001_terminal5_plan_v1.py",
+        "builder_sha256": "3a59bf1fbf79443a06de90ee3b556d5d19b2d0cab3ce12bac3d88ee3b8dc9e79",
+        "comparator_path": "proof/verify_terminal_plan_regeneration.py",
+        "comparator_sha256": "0fcec12a11c99e3a891012851aa34201cbc53a22a7f00c6324917c92af9a2362",
+        "plan_id": "g001-terminal5-v1-candidate4",
+        "runtime_directory": "computation/evidence/full/g001_terminal5_candidate4_20260818T230000Z_workspace/runtime/terminal5_runtime_v1",
+        "c157_archive_path": "computation/evidence/full/results/c157_resume861_collect_compat_v2r1_20260818T160902Z_publication3_archive_20260818T175225Z/AMD_G001_C157_JOB376839_RESUME861_V1_SLURM377219_COLLECTED_20260818T175225Z.tar.gz",
+        "c157_archive_sha256": "97f3584ad70917031e3bef44c43d6d8cd4705c51c50869860961fa41ca7726d0",
+        "c157_archive_bytes": 94329607,
+        "c157_package_path": "computation/evidence/full/results/c157_resume861_collect_compat_v2r1_20260818T160902Z_publication3/G001_C157_JOB376839_RESUME861_V1_SLURM377219_COLLECTED",
+        "config4_archive_path": "computation/evidence/full/results/config4_job377045_recovery_v1_20260818T131100Z_workspace/AMD_G001_CONFIG4_P2_HEAVY16_V1_SLURM377045_RECOVERED_COLLECTED.tar.gz",
+        "config4_archive_sha256": "76e793a1911e54de2ebec04cfe22df7115f3cecbfbd0f53df6b187256d0949c2",
+        "config4_archive_bytes": 70200766,
+        "config4_package_path": "computation/evidence/full/results/config4_job377045_recovery_v1_20260818T131100Z_workspace/G001_CONFIG4_P2_HEAVY16_V1_SLURM377045_RECOVERED_COLLECTED",
+        "expected_files": 195,
+        "archive_package_identity_audited": true,
+        "package_replay_exact": true
+      },
+      "exact6_argument_suffix": [
+        "--multi-edge-cover",
+        "--multi-edge-cover-no-hall",
+        "--multi-edge-cover-max-components",
+        "6",
+        "--multi-edge-cover-budget",
+        "100",
+        "--multi-edge-cover-no-exact-hall",
+        "--multi-edge-cover-exact-max-components",
+        "6"
+      ],
+      "displayed_records": 39030,
+      "search_receipts": 39000,
+      "certified_zero_records": 30,
+      "bundles": 192
+    },
+    "prior_three_evidence": {
+      "root": "computation/evidence/production/prior_three_configurations",
+      "manifest": "MANIFEST.sha256",
+      "manifest_sha256": "3779ba12c799a328ed1dd751cc79f643b9a636069a628447245f891eae6ac3d6",
+      "files": 1078,
+      "bytes": 5463998
+    },
+    "configuration3_fresh_result": {
+      "status": "PASS",
+      "schema": "config3-a2-frozen-split-release-v1",
+      "release_directory": "proof/config3_repair/evidence/full_preserved_v1",
+      "engine": "preserved",
+      "logical_partitions": 47,
+      "direct_partitions": 46,
+      "split_children": 22,
+      "logical_nodes": 167742832,
+      "release_record_path": "proof/config3_repair/evidence/full_preserved_v1/RELEASE.json",
+      "release_record_sha256": "ef7addf3ba82b933ae780c57cc8fc633073b422075fbd98171ebabf78da57ae5",
+      "release_sidecar_path": "proof/config3_repair/evidence/full_preserved_v1/RELEASE.json.sha256",
+      "release_sidecar_sha256": "587ec66bbcfe87511c1a297a17562442c92387ca414db4377a08fee2fccd4376",
+      "run_result_path": "proof/config3_repair/evidence/full_preserved_v1/RUN_RESULT.json",
+      "run_result_sha256": "c0b89376528fdc18881bc82ae9df6cf6632c913f8b1981de9014ef71cbb6f128",
+      "run_result_sidecar_path": "proof/config3_repair/evidence/full_preserved_v1/RUN_RESULT.json.sha256",
+      "run_result_sidecar_sha256": "cca6a017bb40406423d5ccdef0f6cb449c384ac6359d12f6b956e21ddfb0dfbe",
+      "manifest_path": "proof/config3_repair/evidence/full_preserved_v1/MANIFEST.sha256",
+      "manifest_sha256": "1603fe0bd5d6fee4e47d063a7077690ee76525631e31cc9d555aee71e59a53af",
+      "exporter_path": "proof/config3_repair/freeze_config3_a2_evidence.py",
+      "exporter_sha256": "e418205c155194fc59ed64cee41a7ead54eda40234d72879da436e7d83e8a5d1",
+      "verifier_path": "proof/config3_repair/verify_config3_a2_frozen.py",
+      "verifier_sha256": "2e739732b35ed7bb6e7dbeb174ee2e713eae4b691a518ee00c5f7644bfd0a38a",
+      "split_harness_path": "proof/config3_repair/run_config3_a2_path8_14_split.py",
+      "split_harness_sha256": "a51910fef8393fd2b9c93b14491c8e42d6bae598e3872166419632a088dd727f",
+      "expected_marker": "CONFIG3_A2_FROZEN_SPLIT_STRICT_OK schema=config3-a2-frozen-split-release-v1 logical_partitions=47 direct=46 children=22 logical_nodes=167742832 manifest_sha256=1603fe0bd5d6fee4e47d063a7077690ee76525631e31cc9d555aee71e59a53af release_sha256=ef7addf3ba82b933ae780c57cc8fc633073b422075fbd98171ebabf78da57ae5 run_result_sha256=c0b89376528fdc18881bc82ae9df6cf6632c913f8b1981de9014ef71cbb6f128",
+      "normalized_stdout_sha256": "1001044bb26d961c9ea11705a2534e7503ec4cd1d9868f4e846b8fa4686cd4dd"
+    },
+    "semantic_bridge": {
+      "status": "PASS",
+      "directory": "proof/semantic_bridge",
+      "record_path": "proof/semantic_bridge/SEMANTIC_BRIDGE_RECORD.json",
+      "record_sha256": "5f17c54154571ca8b13b7cfb0adcf73b49ea02d4e7ab1ed03424ae6426ac71a2",
+      "wrapper_path": "proof/semantic_bridge/verify_semantic_bridge.ps1",
+      "wrapper_sha256": "d3ed0cf868c06b68b6e88cadbeceac9239e5bb96772827d3efeaebd59a41816b",
+      "source_files": 12,
+      "rows": 8,
+      "direct_rows": 7,
+      "projected_rows": 1,
+      "uses_fresh_baseline_lean_lib": true,
+      "expected_marker": "LEECH18_SEMANTIC_BRIDGE_REPLAY_OK rows=8 direct=7 projected=1",
+      "run_result_schema": "leech18-semantic-bridge-run-result-v1",
+      "run_result_sha256": "58d14a73185df68542db67766b86bf3cfa551006c66a94ba269352fb97ca0a67",
+      "run_result_sidecar_sha256": "752ba39a32e67f9665c831133f17ad3f8c15ae621ad71421cbd9541a1fe95e11"
+    },
+    "global_record": {
+      "path": "computation/evidence/production/exact_final_workspace/production_run/config_collections/global_job377730.json",
+      "sha256": "8c915a2ad6d6957740eb97bafb734603d59b5c0376704fd311ebfa6cb27d0eb5",
+      "status": "GLOBAL_ZERO_COMPLETE",
+      "configurations": [1, 4, 5, 6, 7],
+      "search_receipts": 39000,
+      "certified_zero_records": 30,
+      "displayed_records": 39030,
+      "nodes": 7964472779
+    },
+    "earlier_certificates": [
+      {
+        "configuration": 2,
+        "path": "computation/evidence/production/certificates/CONFIGURATION2_ROW1_CERTIFICATE.md",
+        "sha256": "9938347993892b27089f1a0d014a008d17f6b4ded0f3f5a11d911d81f960b650",
+        "partitions": 79,
+        "nodes": 193281350,
+        "expected_marker": "G001_ROW1_COVERAGE_OK"
+      },
+      {
+        "configuration": 3,
+        "path": "computation/evidence/production/certificates/CONFIGURATION3_A2_CERTIFICATE.md",
+        "sha256": "6ea74cd696f46f5896cfcedbd1de64994409c679243861b2988b43e2f5bd3a64",
+        "partitions": 47,
+        "nodes": 167742832,
+        "expected_marker": "STATUS=COVERAGE_OK ALL_EXPECTED_PARTITIONS_ZERO"
+      },
+      {
+        "configuration": 8,
+        "path": "computation/evidence/production/certificates/CONFIGURATION8_ROW7_CERTIFICATE.md",
+        "sha256": "d20650d57d6e420027d0d15dadad08b3c8d2b115dc5adc306bbe2ad0e3b6376c",
+        "partitions": 52,
+        "nodes": 239702053,
+        "expected_marker": "G001_ROW7_COVERAGE_OK"
+      }
+    ],
+    "global_relocation_adapter": {
+      "path": "computation/verifiers/global/verify_global.py",
+      "sha256": "173e3a1d4eafb317fb2726dc734f4434860c4526b2443be9dc1857abf0db16df",
+      "expected_marker": "G001_TERMINAL5_GLOBAL_RELOCATED_VERIFIED status=GLOBAL_ZERO_COMPLETE search=39000 certified_zero=30 bytes=1434 sha256=8c915a2ad6d6957740eb97bafb734603d59b5c0376704fd311ebfa6cb27d0eb5"
+    },
+    "recorded_global_replay": {
+      "path": "computation/verifiers/global/verifier.stdout.txt",
+      "sha256": "654113e7bcb5184ee2a72b9bcbb6b4832b9b27a3550724c75eb73ad4486ed0c2",
+      "exit_code": 0,
+      "stderr_bytes": 0
+    },
+    "normalized_stdout_sha256": {
+      "source_freeze": "7c574d84ecd0c81f3c2a582ce6c80ec00b15903a46a8b706ad4ce38aa3a97283",
+      "terminal5_source_tests": "819b4ae69674a0a490d885896e909ec1c525fbebb48ec554ce5e89edaf402025",
+      "terminal_plan_regeneration_build": "db7b10f86dbf4781687462a6e20d66989a17a50bd4064f3e65c15d77b5346a66",
+      "terminal_plan_regeneration_compare": "7f610ca2186672129f567a734fb1080f23bbd61af75b491015077f853b3dcdb6",
+      "terminal_plan": "8278952ac2e05d636416c87a77b5a3f91c942095675409a80afc617a83748e8e",
+      "prior_three_manifest": "11fa8de96c0dc28b8ca191e044a61f18b7e43ae679f1896a7682e28269555a9c",
+      "configuration_3_strict_ledger_audit": "85d768e0aa31371058b022105161415e45ea527d03a52ae0e08620daf2679d8b",
+      "configuration_2": "5a09b28320c1d40c9962fb463155eb9e9caa5826b73606cbd95ae740a693e24d",
+      "configuration_3": "a684fa7c0acedd80c3037517b09599c0e0ab97c5c77ed12c0ca47a0e6731904e",
+      "configuration_8": "a77e9dad965f03d3d17f95d03702994e843c345f30d7be4ae6b5512dbe7eafc4",
+      "global_relocated_collector": "54b1f5415c6e13e694fe8626f72cbc742335ddbac26ac22cf51779e14b11c6ff"
+    },
+    "all_eight": {
+      "executed_pieces": 39178,
+      "reused_certified_zero_records": 30,
+      "covered_pieces": 39208,
+      "reported_node_visits": 8565199014
+    }
+  },
+  "known_limits": [
+    "The production computation is not checked inside Lean.",
+    "The semantic descriptor bridge does not kernel-prove the constructive vertex relabeling, exact-orbit representative preservation, or partition-index transport; the external evidence does not construct a Lean RowExclusions value.",
+    "The exact historical global collector shell transcript is absent; the pinned relocation adapter replays the frozen collector.",
+    "Configuration 3 has incomplete original raw job evidence and one inferred historical exit code; the current workflow therefore requires a separately released fresh exact 47-logical-partition result, with 46 direct receipts and a complete censused 22-child replacement for the guarded parent.",
+    "No independently written verifier checks the complete exhaustive ZERO search.",
+    "The production compiler executable, full version output, and exact production Python version were not preserved.",
+    "The local frozen-source rebuild and 45+11 tests do not reproduce or identify the historical GCC 12 production binary, and subordinate compiler toolchain components remain trusted.",
+    "Terminal-plan regeneration replays sealed calibration outputs but does not rerun the calibration searches or independently verify the frozen package-replay implementation.",
+    "The pristine Lean project build reuses pinned dependency build caches; those dependency oleans and the Lean toolchain remain trusted.",
+    "The workflow verifies preserved evidence and does not rerun the 8.5-billion-node production search."
+  ]
+}

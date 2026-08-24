@@ -1,0 +1,13 @@
+name = "LeechTreesPartial"
+version = "0.1.0"
+buildDir = ".lake/build_release_clean"
+defaultTargets = ["LeechTrees"]
+
+[[lean_lib]]
+name = "LeechTrees"
+srcDir = "."
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4.git"
+rev = "v4.24.0"

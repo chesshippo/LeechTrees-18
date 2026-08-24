@@ -1,0 +1,40 @@
+G001 row-7 production fan-out verification
+Date: 2026-08-16
+Production executable SHA-256: 9F894F39EFB71E9C8506E5C5B312289B1D3BEFE95C95B911DF8613F2E24BAFFB
+
+Common command prefix:
+order18_topology_free_search.exe --mode g001_row7
+
+Common production flags:
+--multi-edge-cover --multi-edge-cover-no-hall --multi-edge-cover-max-components 6 --multi-edge-cover-budget 100 --multi-edge-cover-no-exact-hall
+
+All eight commands exited 0. The complete terminal RESULT lines are recorded below.
+
+[three-edge seed; --stop-edges 4]
+RESULT mode=g001_row7 status=FRONTIER nodes=6 states=6 generated=5 duplicate=0 collision=0 range=0 parity=0 diameter=0 g002=0 cutlower=0 cutupper=0 late_t9a=0 solution_topologies=0 depth=3:1,4:5, root_valid=5 frontier=5 frontier_mex=8:3,9:2, frontier_odd=3:5, frontier_q3=7:5, multi_cover=on cover_checks=6 cover_skipped=6 cover_skipped_full=0 cover_local_slots=0 cover_local_patterns=0 cover_slots=0 cover_patterns=0 cover_candidates=0 cover_no_candidate=0 cover_hall_fail=0 cover_exact_calls=0 cover_exact_fail=0 cover_exact_pass=0 cover_exact_budget=0 cover_exact_cap=0 cover_exact_states=0 cover_exact_hall_fail=0 cover_validation_fail=0 cover_shadow_reject=0 child_max=3:5,
+
+[root 0; --root-branch 0 --stop-edges 5]
+RESULT mode=g001_row7 status=FRONTIER nodes=5 states=5 generated=11 duplicate=0 collision=3 range=0 parity=0 diameter=0 g002=0 cutlower=0 cutupper=0 late_t9a=0 solution_topologies=0 depth=3:1,4:1,5:3, root_valid=5 frontier=3 frontier_mex=10:2,15:1, frontier_odd=4:3, frontier_q3=7:3, multi_cover=on cover_checks=5 cover_skipped=5 cover_skipped_full=0 cover_local_slots=0 cover_local_patterns=0 cover_slots=0 cover_patterns=0 cover_candidates=0 cover_no_candidate=0 cover_hall_fail=0 cover_exact_calls=0 cover_exact_fail=0 cover_exact_pass=0 cover_exact_budget=0 cover_exact_cap=0 cover_exact_states=0 cover_exact_hall_fail=0 cover_validation_fail=0 cover_shadow_reject=0 child_max=3:5,4:3,
+
+[root 1; --root-branch 1 --stop-edges 5]
+RESULT mode=g001_row7 status=FRONTIER nodes=5 states=5 generated=11 duplicate=0 collision=3 range=0 parity=0 diameter=0 g002=0 cutlower=0 cutupper=0 late_t9a=0 solution_topologies=0 depth=3:1,4:1,5:3, root_valid=5 frontier=3 frontier_mex=11:2,13:1, frontier_odd=4:3, frontier_q3=7:3, multi_cover=on cover_checks=5 cover_skipped=5 cover_skipped_full=0 cover_local_slots=0 cover_local_patterns=0 cover_slots=0 cover_patterns=0 cover_candidates=0 cover_no_candidate=0 cover_hall_fail=0 cover_exact_calls=0 cover_exact_fail=0 cover_exact_pass=0 cover_exact_budget=0 cover_exact_cap=0 cover_exact_states=0 cover_exact_hall_fail=0 cover_validation_fail=0 cover_shadow_reject=0 child_max=3:5,4:3,
+
+[root 2; --root-branch 2 --stop-edges 5]
+RESULT mode=g001_row7 status=FRONTIER nodes=4 states=4 generated=11 duplicate=0 collision=4 range=0 parity=0 diameter=0 g002=0 cutlower=0 cutupper=0 late_t9a=0 solution_topologies=0 depth=3:1,4:1,5:2, root_valid=5 frontier=2 frontier_mex=12:2, frontier_odd=3:2, frontier_q3=7:2, multi_cover=on cover_checks=4 cover_skipped=4 cover_skipped_full=0 cover_local_slots=0 cover_local_patterns=0 cover_slots=0 cover_patterns=0 cover_candidates=0 cover_no_candidate=0 cover_hall_fail=0 cover_exact_calls=0 cover_exact_fail=0 cover_exact_pass=0 cover_exact_budget=0 cover_exact_cap=0 cover_exact_states=0 cover_exact_hall_fail=0 cover_validation_fail=0 cover_shadow_reject=0 child_max=3:5,4:2,
+
+[root 3; --root-branch 3 --stop-edges 5]
+RESULT mode=g001_row7 status=FRONTIER nodes=4 states=4 generated=11 duplicate=0 collision=4 range=0 parity=0 diameter=0 g002=0 cutlower=0 cutupper=0 late_t9a=0 solution_topologies=0 depth=3:1,4:1,5:2, root_valid=5 frontier=2 frontier_mex=10:2, frontier_odd=3:2, frontier_q3=7:2, multi_cover=on cover_checks=4 cover_skipped=4 cover_skipped_full=0 cover_local_slots=0 cover_local_patterns=0 cover_slots=0 cover_patterns=0 cover_candidates=0 cover_no_candidate=0 cover_hall_fail=0 cover_exact_calls=0 cover_exact_fail=0 cover_exact_pass=0 cover_exact_budget=0 cover_exact_cap=0 cover_exact_states=0 cover_exact_hall_fail=0 cover_validation_fail=0 cover_shadow_reject=0 child_max=3:5,4:2,
+
+[root 4; --root-branch 4 --stop-edges 5]
+RESULT mode=g001_row7 status=FRONTIER nodes=12 states=12 generated=15 duplicate=0 collision=0 range=0 parity=0 diameter=0 g002=0 cutlower=0 cutupper=0 late_t9a=0 solution_topologies=0 depth=3:1,4:1,5:10, root_valid=5 frontier=10 frontier_mex=9:6,10:4, frontier_odd=3:10, frontier_q3=7:10, multi_cover=on cover_checks=12 cover_skipped=12 cover_skipped_full=0 cover_local_slots=0 cover_local_patterns=0 cover_slots=0 cover_patterns=0 cover_candidates=0 cover_no_candidate=0 cover_hall_fail=0 cover_exact_calls=0 cover_exact_fail=0 cover_exact_pass=0 cover_exact_budget=0 cover_exact_cap=0 cover_exact_states=0 cover_exact_hall_fail=0 cover_validation_fail=0 cover_shadow_reject=0 child_max=3:5,4:10,
+
+[path 4,9; --branch-path 4,9 --stop-edges 6]
+RESULT mode=g001_row7 status=FRONTIER nodes=19 states=19 generated=31 duplicate=0 collision=0 range=0 parity=0 diameter=0 g002=0 cutlower=0 cutupper=0 late_t9a=0 solution_topologies=0 depth=3:1,4:1,5:1,6:16, root_valid=5 frontier=16 frontier_mex=10:10,11:6, frontier_odd=4:16, frontier_q3=7:16, multi_cover=on cover_checks=19 cover_skipped=19 cover_skipped_full=0 cover_local_slots=0 cover_local_patterns=0 cover_slots=0 cover_patterns=0 cover_candidates=0 cover_no_candidate=0 cover_hall_fail=0 cover_exact_calls=0 cover_exact_fail=0 cover_exact_pass=0 cover_exact_budget=0 cover_exact_cap=0 cover_exact_states=0 cover_exact_hall_fail=0 cover_validation_fail=0 cover_shadow_reject=0 child_max=3:5,4:10,5:16,
+
+[path 4,9,15; --branch-path 4,9,15 --stop-edges 7]
+RESULT mode=g001_row7 status=FRONTIER nodes=27 states=27 generated=54 duplicate=0 collision=0 range=0 parity=0 diameter=0 g002=0 cutlower=0 cutupper=0 late_t9a=0 solution_topologies=0 depth=3:1,4:1,5:1,6:1,7:23, root_valid=5 frontier=23 frontier_mex=11:15,12:8, frontier_odd=4:23, frontier_q3=7:23, multi_cover=on cover_checks=27 cover_skipped=27 cover_skipped_full=0 cover_local_slots=0 cover_local_patterns=0 cover_slots=0 cover_patterns=0 cover_candidates=0 cover_no_candidate=0 cover_hall_fail=0 cover_exact_calls=0 cover_exact_fail=0 cover_exact_pass=0 cover_exact_budget=0 cover_exact_cap=0 cover_exact_states=0 cover_exact_hall_fail=0 cover_validation_fail=0 cover_shadow_reject=0 child_max=3:5,4:10,5:16,6:23,
+
+Certified fan-outs:
+root=5; depth-4 children=[3,3,2,2,10]; path 4,9 children=16;
+path 4,9,15 children=23. The aggregate path-4,9,15 production job
+terminated abnormally with no RESULT and is excluded from coverage.

@@ -1,0 +1,6 @@
+* -text
+
+*.bundle binary
+*.gz binary
+*.zip binary
+

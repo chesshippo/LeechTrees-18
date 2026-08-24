@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this formalization, please cite this repository and identify the exact commit or release used."
+type: software
+title: "LeechTrees: Lean-formalized structural results for classical positive-integral Leech trees"
+authors:
+  - name: "LeechTrees formalization contributors"
+repository-code: "https://github.com/chesshippo/LeechTrees"
+abstract: >-
+  A Lean 4.24 formalization of 66 scoped structural theorem families for
+  classical positive-integral Leech trees, with 324 claim-bearing endpoints,
+  human-readable proofs, an aggregate axiom audit, and validation evidence.
+keywords:
+  - Lean
+  - Mathlib
+  - graph theory
+  - weighted trees
+  - distinct distances

@@ -1,0 +1,104 @@
+{
+  "schema": "LEECH18_PUBLIC_REPRODUCTION_ENVIRONMENT_V1",
+  "scope": "requirements and retained identities; this file is not a container image or a claim of bit-identical rebuilds",
+  "lean": {
+    "toolchain": "leanprover/lean4:v4.24.0",
+    "lean_version": "4.24.0",
+    "project_commit": "2747de53478568e580e364ddc685871d55dc6e7e",
+    "lake_manifest_sha256": "e697cc24fa1a208a73cc80246d28d8ebf5ed330a250abfabc04253658e2549fc",
+    "dependency_policy": "use the committed lake-manifest.json; do not run lake update"
+  },
+  "repository_setup": {
+    "python_minimum": "3.12",
+    "reason": "safe data-filtered extraction of the evidence tar archive"
+  },
+  "preserved_evidence_replay_reference_environment": {
+    "python_version": "3.13.4",
+    "gcc_version": "16.1.0",
+    "gcc_executable_sha256": "46691d3ff12c744102c63cee4c69ebd803bbbdf8b36f2fd70f8bc04307230026",
+    "cxx_options": [
+      "-O2",
+      "-std=c++20",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-Werror"
+    ],
+    "provenance_note": "This identifies a later successful replay environment, not the original production environment."
+  },
+  "original_production_environment": {
+    "terminal5_operating_system_family": "Linux/POSIX",
+    "terminal5_compiler_family": "GCC-oriented C++20",
+    "terminal5_exact_compiler_executable": "NOT RETAINED",
+    "terminal5_exact_compiler_version_output": "NOT RETAINED",
+    "terminal5_exact_python_version": "NOT RETAINED",
+    "configurations_2_3_8_operating_system_family": "Windows",
+    "configurations_2_3_8_exact_compiler_identity": "NOT RETAINED",
+    "configurations_2_3_8_exact_python_version": "NOT RETAINED",
+    "powershell_version_used_in_production": "NOT RETAINED"
+  },
+  "supported_public_workflows": {
+    "windows_prior_three": {
+      "operating_system": "Windows",
+      "powershell": "Windows PowerShell 5.1 or PowerShell 7",
+      "python_minimum": "3.12",
+      "source_rebuild_environment": "MSYS2 UCRT64",
+      "documented_compiler": "GNU g++ 14.2.0",
+      "cxx_options": [
+        "-O2",
+        "-std=c++20",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic"
+      ],
+      "execution_model": "public source-build workflow; a separate legacy workflow replays hash-pinned preserved Windows PE executables"
+    },
+    "linux_c157_and_terminal_five": {
+      "operating_system": "Linux/POSIX",
+      "python_minimum": "3.12",
+      "cxx_language": "C++20",
+      "recommended_reference_compiler": "GCC 16.1.0",
+      "required_compiler_identity": "record the selected compiler path and complete --version output; bit-identical output is not promised",
+      "workers_per_bundle": 15,
+      "cpus_per_bundle": 16,
+      "recorded_slurm_concurrency": {
+        "bundles": 192,
+        "maximum_concurrent_bundles": 24,
+        "maximum_solver_workers": 360,
+        "maximum_allocated_cpus": 384
+      }
+    }
+  },
+  "frozen_inputs": {
+    "terminal_plan_sha256": "b317a3b7cef71e11fea762ce5e70322f168e06c6e04b97293f066cb2e313bdae",
+    "complete_evidence_archive": {
+      "filename": "leech18_full_extracted_tree_repacked_20260820.tar.gz",
+      "bytes": 826575460,
+      "sha256": "69bc248cf9688b8d273983068249e7e91c9a5cde5a42488f21f2569cd7904f87",
+      "members": 991377,
+      "regular_files": 950293,
+      "directories": 41083,
+      "hardlinks": 1
+    },
+    "windows_runtime_dll_sha256": {
+      "libgcc_s_seh-1.dll": "6c0a4c1fa1cdb36ba1d7be050a16f50edeaff12294178cdd25590ef3081b0e89",
+      "libstdc++-6.dll": "bc95e3e3b3f83f03e9d05f7bb61c2bf42b4b15c2305b1130a0036d36f2148aa2",
+      "libwinpthread-1.dll": "0acbbb8652cdfce8cd4e9df34dc4f64539148e0de6ff1a2a6b2626808faddd36"
+    }
+  },
+  "fresh_reduced_search_scope": {
+    "c157": {
+      "surviving_leaves": 37706,
+      "internal_prefixes": 2135,
+      "zero_children": 464,
+      "paper_configurations": [1, 5, 6, 7]
+    },
+    "terminal5": {
+      "canonical_searches": 39000,
+      "configuration4_supplemental_searches": 30,
+      "paper_configurations": [1, 4, 5, 6, 7]
+    },
+    "partition_plan_boundary": "The drivers rerun the complete released branch roster. They verify and use the frozen plan; they do not recreate the historical adaptive Config4 planning chain from its root configuration."
+  },
+  "trusted_code_boundary": "The C++ solvers, branch/partition logic, Python and PowerShell runners and collectors, compiler/runtime, and exact input bindings remain trusted. The witness checker checks FOUND witnesses but does not independently prove ZERO exhaustiveness."
+}

@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Please cite this repository and identify the exact release or commit used."
+type: software
+title: "Nonexistence of an order-18 Leech tree: computer-assisted proof"
+authors:
+  - name: "chesshippo"
+version: "1.0.0"
+date-released: 2026-08-24
+abstract: >-
+  Lean structural formalization, exhaustive-search source and partition plans,
+  preserved certificates, and end-to-end verification and recomputation
+  workflows for the nonexistence of a positive-integral Leech tree of order 18.
+keywords:
+  - graph theory
+  - Lean
+  - exhaustive search
+  - computer-assisted proof
+license: Apache-2.0 AND CC-BY-4.0

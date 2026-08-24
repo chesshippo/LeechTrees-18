@@ -1,0 +1,21 @@
+scope,root,configuration,stop_edges,status,nodes,frontier,wall_seconds,node_reduction_pct,frontier_reduction_pct,notes
+all,,baseline,9,FRONTIER,24120,20396,,,,exact fixed-depth run
+all,,legacy_exact_cover,9,FRONTIER,24120,16376,,0.000000,19.709747,"--multi-edge-cover --multi-edge-cover-no-hall --multi-edge-cover-max-components 6 --multi-edge-cover-budget 100 --multi-edge-cover-no-exact-hall"
+all,,baseline,10,FRONTIER,174419,150299,,,,exact fixed-depth run
+all,,legacy_exact_cover,10,FRONTIER,151125,107982,,13.355196,28.155211,"same active-cover flags"
+all,,baseline,11,FRONTIER,1371847,1196935,10.7,,,exact fixed-depth run; observed wall time
+all,,legacy_exact_cover,11,FRONTIER,1096149,746417,18.7,20.096848,37.639304,"same active-cover flags; observed wall time"
+all,,legacy_exact_cover_plus_parity_coherence,11,FRONTIER,1096149,745849,40.296698,20.096848,37.686758,"parity coherence removes 568 additional frontier states (0.076097% versus legacy cover); not selected for production"
+depth12,0,baseline,12,FRONTIER,948286,829221,8.376688,,,exit 0
+depth12,0,legacy_exact_cover,12,FRONTIER,704638,178768,207.657721,25.693514,78.441453,exit 0
+depth12,1,baseline,12,FRONTIER,1118108,978170,11.677003,,,exit 0
+depth12,1,legacy_exact_cover,12,FRONTIER,834565,203261,263.970333,25.359178,79.220279,exit 0
+depth12,2,baseline,12,FRONTIER,1168370,1022649,11.258729,,,exit 0
+depth12,2,legacy_exact_cover,12,FRONTIER,905494,229595,268.887373,22.499379,77.548993,exit 0
+depth12,3,baseline,12,FRONTIER,638474,560524,6.537641,,,exit 0
+depth12,3,legacy_exact_cover,12,FRONTIER,474944,143268,178.623376,25.612633,74.440345,exit 0
+depth12,0-3,baseline,12,FRONTIER,3873238,3390564,37.850061,,,sum of four independently selected roots
+depth12,0-3,legacy_exact_cover,12,FRONTIER,2919641,754892,919.138803,24.620150,77.735504,"summed observed process wall times; some runs overlapped"
+depth12,4,baseline,12,FRONTIER,7776799,6826517,62.468060,,,exit 0
+depth12,4,legacy_exact_cover,12,INTERRUPTED,,,,,,"manually stopped after about 12 minutes; no RESULT; not evidence"
+depth12,2,optimized_exact_pack_no_arc,12,FRONTIER,905494,225657,317.290000,22.499379,77.933992,"same search nodes; slightly stronger frontier result but slower than legacy exact cover"

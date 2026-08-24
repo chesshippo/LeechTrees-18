@@ -1,0 +1,7 @@
+exit_code=0
+wall_seconds=1.0472643
+started_local=2026-08-16T15:05:08.1009269-04:00
+ended_local=2026-08-16T15:05:09.1569892-04:00
+solver_sha256=5F50BEC4D18947680EE170BF22AF747D1E74EA203E34E305EAE27768439B46AD
+source_sha256=134373D19AD4B1B1DFB30595F73BEABCEF30FA21C19B74A652669FB7705A72D9
+arguments=--mode g001_row1 --branch-path 2,9,15,22,7 --stop-edges 12 --multi-edge-cover --multi-edge-cover-no-hall --multi-edge-cover-max-components 6 --multi-edge-cover-budget 100 --multi-edge-cover-no-exact-hall

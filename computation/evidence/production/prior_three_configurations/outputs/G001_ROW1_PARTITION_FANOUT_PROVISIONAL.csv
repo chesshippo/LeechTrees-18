@@ -1,0 +1,6 @@
+parent_depth,parent_key,selector,stop_edges,expected_valid_children,verification_status,notes
+3,seed,none,4,3,VERIFIED_FROZEN_EXECUTABLE,"unfiltered canonical row-1 seed; three weight-6 orbit children"
+4,root_2,root:2,5,10,VERIFIED_FROZEN_EXECUTABLE,"--root-branch 2 --stop-edges 5; child_max 4:10"
+5,path_2_9,"path:2,9",6,16,VERIFIED_FROZEN_EXECUTABLE,"--branch-path 2,9 --stop-edges 6; child_max 5:16"
+6,path_2_9_15,"path:2,9,15",7,23,VERIFIED_FROZEN_EXECUTABLE,"--branch-path 2,9,15 --stop-edges 7; child_max 6:23"
+7,path_2_9_15_22,"path:2,9,15,22",8,31,VERIFIED_FROZEN_EXECUTABLE,"--branch-path 2,9,15,22 --stop-edges 8; child_max 7:31; mex 12:21,13:5,14:5"

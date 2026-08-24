@@ -1,0 +1,16 @@
+G001 row-7 strict coverage verifier
+Date: 2026-08-16
+Command:
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File work/a2_solver/verify_g001_row7_partition_coverage.ps1
+
+EXPECTED=52 RECORDED=52
+NODE_SUM=239702053 STATE_SUM=22164366 GENERATED_SUM=2313945375
+WALL_SUM_SECONDS=50825.498268
+G001_ROW7_COVERAGE_OK
+EXIT_CODE=0
+
+The verifier recomputed the shallow production-binary fan-outs, required the
+exact 52-key partition set, checked the hard-coded production executable hash
+and exact production arguments, required ZERO/exit 0/zero solutions/empty
+stderr, and bound each ledger counter and wall/exit value to its raw stdout
+and done artifacts.

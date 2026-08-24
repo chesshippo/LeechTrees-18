@@ -1,0 +1,4 @@
+worker_pid=44312
+started_local=2026-08-16T04:07:19.5800452-04:00
+solver_sha256=9F894F39EFB71E9C8506E5C5B312289B1D3BEFE95C95B911DF8613F2E24BAFFB
+arguments=--mode g001_row7 --branch-path 4,9,15,15 --multi-edge-cover --multi-edge-cover-no-hall --multi-edge-cover-max-components 6 --multi-edge-cover-budget 100 --multi-edge-cover-no-exact-hall

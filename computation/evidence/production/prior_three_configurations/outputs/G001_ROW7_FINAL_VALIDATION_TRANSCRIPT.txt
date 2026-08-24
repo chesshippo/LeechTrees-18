@@ -1,0 +1,29 @@
+G001 row-7 final regression transcript
+Date: 2026-08-16
+All commands used the frozen production environment and exited 0.
+
+[exact-cover unit test]
+MULTI_EDGE_EXACT_COVER_TEST_OK
+
+[exact-cover exhaustive small orders]
+COVER_SMALL order=2 topologies=1 checks=2 hall_fail=0 exact_fail=0 exact_unknown=0
+COVER_SMALL order=3 topologies=1 checks=3 hall_fail=0 exact_fail=0 exact_unknown=0
+COVER_SMALL order=4 topologies=2 checks=6 hall_fail=0 exact_fail=0 exact_unknown=0
+COVER_SMALL order=5 topologies=0 checks=8 hall_fail=0 exact_fail=1 exact_unknown=0
+COVER_SMALL order=6 topologies=1 checks=38 hall_fail=0 exact_fail=2 exact_unknown=0
+MULTI_EDGE_EXACT_COVER_SMALL_ORDER_OK
+
+[production executable small orders with production flags]
+SMALL order=2 topologies=1 nodes=2 cover_no_candidate=0 cover_hall_fail=0 cover_exact_fail=0 cover_exact_unknown=0
+SMALL order=3 topologies=1 nodes=3 cover_no_candidate=0 cover_hall_fail=0 cover_exact_fail=0 cover_exact_unknown=0
+SMALL order=4 topologies=2 nodes=6 cover_no_candidate=0 cover_hall_fail=0 cover_exact_fail=0 cover_exact_unknown=0
+SMALL order=5 topologies=0 nodes=8 cover_no_candidate=4 cover_hall_fail=0 cover_exact_fail=1 cover_exact_unknown=0
+SMALL order=6 topologies=1 nodes=38 cover_no_candidate=24 cover_hall_fail=0 cover_exact_fail=2 cover_exact_unknown=0
+TOPOLOGY_FREE_SMALL_ORDER_OK
+
+[frozen A2 regression with production flags]
+RESULT mode=a2_attached status=ZERO nodes=32841 states=1773 generated=161556 duplicate=0 collision=128702 range=8 parity=2439 diameter=0 g002=0 cutlower=0 cutupper=0 late_t9a=0 solution_topologies=0 depth=4:1,5:1,6:1,7:2,8:2,9:9,10:34,11:220,12:1515,13:5530,14:17153,15:8373, root_valid=2 frontier=0 frontier_mex= frontier_odd= frontier_q3= multi_cover=on cover_checks=30402 cover_skipped=7 cover_skipped_full=201 cover_local_slots=4664 cover_local_patterns=5896 cover_slots=89117 cover_patterns=471527 cover_candidates=11028616 cover_no_candidate=23694 cover_hall_fail=0 cover_exact_calls=6500 cover_exact_fail=4935 cover_exact_pass=0 cover_exact_budget=1565 cover_exact_cap=0 cover_exact_states=259211 cover_exact_hall_fail=0 cover_validation_fail=0 cover_shadow_reject=0 child_max=4:2,5:6,6:2,7:1,8:6,9:8,10:19,11:32,12:48,13:49,14:42,
+
+The A2 regression returned ZERO with exactly 32,841 nodes, matching the
+previous certified behavior. The expected small-order topology counts are
+1,1,2,0,1 for orders 2 through 6.

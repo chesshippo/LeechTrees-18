@@ -1,0 +1,3 @@
+exit_code=0
+wall_seconds=1964.5115633
+ended_local=2026-08-16T14:27:07.1697086-04:00

@@ -1,0 +1,15 @@
+PROFILE_SET=row1_split49_v1
+CHILD=22
+BRANCH_PATH=2,9,15,22
+SOLVER_SHA256=5F50BEC4D18947680EE170BF22AF747D1E74EA203E34E305EAE27768439B46AD
+SOURCE_SHA256=134373D19AD4B1B1DFB30595F73BEABCEF30FA21C19B74A652669FB7705A72D9
+PLAN_SHA256=7603A7D44363A8F4D299D0742AC09C44BF01CB2F63940508EE9C1402B8147750
+FANOUT_SHA256=D1B3B8EDCEDD8ABB248E3C34F5FF979BE1183FCE502B4B3C7CB937DA08C1D78B
+START configuration=baseline started_local=2026-08-16T14:44:12.7702630-04:00
+arguments=--mode g001_row1 --branch-path 2,9,15,22 --stop-edges 12
+END configuration=baseline exit_code=0 wall_seconds=8.5810692 ended_local=2026-08-16T14:44:21.3724513-04:00
+RESULT configuration=baseline RESULT mode=g001_row1 status=FRONTIER nodes=550469 states=542499 generated=3637683 duplicate=0 collision=3087167 range=0 parity=7970 diameter=0 g002=0 cutlower=0 cutupper=0 late_t9a=0 solution_topologies=0 depth=3:1,4:1,5:1,6:1,7:1,8:31,9:400,10:4466,11:48003,12:497564, root_valid=3 frontier=489707 frontier_mex=16:116136,17:5283,18:37292,19:139632,20:52726,21:31723,22:32697,23:24873,24:17457,25:12967,26:8456,27:5723,28:2347,29:1236,30:479,31:386,32:163,33:46,34:37,35:14,36:11,37:3,38:2,40:1,42:11,43:6, frontier_odd=3:2272,4:99909,5:370840,6:16686, frontier_q3=11:489707, child_max=3:3,4:10,5:16,6:23,7:31,8:40,9:50,10:53,11:70,
+START configuration=cover started_local=2026-08-16T14:44:21.4361867-04:00
+arguments=--mode g001_row1 --branch-path 2,9,15,22 --stop-edges 12 --multi-edge-cover --multi-edge-cover-no-hall --multi-edge-cover-max-components 6 --multi-edge-cover-budget 100 --multi-edge-cover-no-exact-hall
+END configuration=cover exit_code=0 wall_seconds=442.9113574 ended_local=2026-08-16T14:51:44.3563683-04:00
+RESULT configuration=cover RESULT mode=g001_row1 status=FRONTIER nodes=490878 states=321903 generated=3029537 duplicate=0 collision=2538612 range=0 parity=7073 diameter=0 g002=0 cutlower=0 cutupper=0 late_t9a=0 solution_topologies=0 depth=3:1,4:1,5:1,6:1,7:1,8:31,9:400,10:4337,11:44761,12:441344, root_valid=3 frontier=277927 frontier_mex=16:76204,17:3788,18:23937,19:83789,20:30778,21:16876,22:15548,23:10960,24:6193,25:4392,26:2746,27:1492,28:604,29:328,30:116,31:97,32:45,33:12,34:8,35:4,36:7,38:1,42:2, frontier_odd=3:758,4:54375,5:215996,6:6798, frontier_q3=11:277927, multi_cover=on cover_checks=483805 cover_skipped=36 cover_skipped_full=43940 cover_local_slots=966428 cover_local_patterns=962644 cover_slots=5589335 cover_patterns=21698827 cover_candidates=1518727442 cover_no_candidate=75905 cover_hall_fail=0 cover_exact_calls=363924 cover_exact_fail=85997 cover_exact_pass=0 cover_exact_budget=277927 cover_exact_cap=0 cover_exact_states=30921809 cover_exact_hall_fail=0 cover_validation_fail=0 cover_shadow_reject=0 child_max=3:3,4:10,5:16,6:23,7:31,8:40,9:50,10:53,11:70,

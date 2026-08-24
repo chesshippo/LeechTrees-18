@@ -1,0 +1,93 @@
+claim_id	group	exact_claim	validity	novelty	formalization	validation	endpoint_basis	endpoint_count	boundary
+T1	BASELINE	Physical weights 1 and 2 for n at least 3	V	N1	FORMALIZED_EXACT	VALIDATION_003_KERNEL_PASS	baseline:T1	1	No finite-search conclusion
+T2a	BASELINE	Forced-MEX initial segment	V	N1	FORMALIZED_EXACT	VALIDATION_003_KERNEL_PASS	baseline:T2a	1	Actual smaller-weight prefix
+T2b	BASELINE	Persistent actual-port merge block	V	N1	FORMALIZED_EXACT	VALIDATION_003_KERNEL_PASS	baseline:T2b	1	No search-completeness claim
+T3a	BASELINE	General root-parity equation	V	N1	FORMALIZED_EXACT	VALIDATION_003_KERNEL_PASS	baseline:T3a	1	Necessary equation only
+T3b	BASELINE	Taylor order condition and order-18 parity-class sizes	V	N1	FORMALIZED_EXACT	VALIDATION_003_KERNEL_PASS	baseline:T3b	2	Necessary condition only
+T4	BASELINE	Cut checksum and order-18 value 11781	V	N1	FORMALIZED_EXACT	VALIDATION_003_KERNEL_PASS	baseline:T4	2	Actual deletion cuts and indexed paths
+T5	BASELINE	Every-edge indexed direct-sum criterion	V	N1	FORMALIZED_EXACT	VALIDATION_003_KERNEL_PASS	baseline:T5	1	Not an unindexed marginal-set claim
+T6	BASELINE	Order-18 largest physical edge at least 19	V	N1	FORMALIZED_EXACT	VALIDATION_003_KERNEL_PASS	baseline:T6	1	No finite Q-band exclusion
+T7	BASELINE	Order-18 simple paths have at most 14 edges	V	N1	FORMALIZED_EXACT	VALIDATION_003_KERNEL_PASS	baseline:T7	1	Graph-level path bound
+T8a0	BASELINE	General collinear signed-path outer factorization	V	N1	FORMALIZED_EXACT	VALIDATION_003_KERNEL_PASS	baseline:T8a0	1	Nonempty selected edges and path support
+T8a1	BASELINE	General noncollinear path coefficients vanish	V	N1	FORMALIZED_EXACT	VALIDATION_003_KERNEL_PASS	baseline:T8a1	1	Exact no-common-path premise
+T8a	BASELINE	Collinear extreme-component factorization	V	N1	FORMALIZED_EXACT	VALIDATION_003_KERNEL_PASS	baseline:T8a	1	Indexed support retained
+T8b	BASELINE	Actual parity counts and C_F K_F identities	V	N1	FORMALIZED_EXACT	VALIDATION_003_KERNEL_PASS	baseline:T8b	1	No value-image substitution
+T8c	BASELINE	Raw singleton-pair triple coefficients and noncollinear zero	V	N1	FORMALIZED_EXACT	VALIDATION_003_KERNEL_PASS	baseline:T8c	2	Finset duplicate collapse explicit
+T8d	BASELINE	Parity-resolved path moments for residue p	V	N1	FORMALIZED_EXACT	VALIDATION_003_KERNEL_PASS	baseline:T8d	1	Degrees 1 through 3
+T8e	BASELINE	Order-18 counts and degree-1 through degree-3 moment table	V	N1	FORMALIZED_EXACT	VALIDATION_003_KERNEL_PASS	baseline:T8e	2	Counts 76 and 77
+T8f	BASELINE	Order-18 joined counts and side feasibility	V	N1	FORMALIZED_EXACT	VALIDATION_003_KERNEL_PASS	baseline:T8f	1	No existence conclusion
+T9a	BASELINE	Literal parity-tail spacing and upper-tail inequalities	V	N1	FORMALIZED_EXACT	VALIDATION_003_KERNEL_PASS	baseline:T9a	1	Requires p less than 2 and nonempty block
+T9b	BASELINE	Equal-cardinality saturation of value Finsets	V	N1	FORMALIZED_EXACT	VALIDATION_003_KERNEL_PASS	baseline:T9b	1	Value equality only
+T10	BASELINE	Conditional order-18 weight-67 cut implication	V	N1	FORMALIZED_EXACT	VALIDATION_003_KERNEL_PASS	baseline:T10	1	Actual weight 67 and cut size 9
+T10b	BASELINE	Conditional order-18 weight-68 residual implication	V	N1	FORMALIZED_EXACT	VALIDATION_003_KERNEL_PASS	baseline:T10b	1	Cut size 9 and normalized mass -1 or 5
+T11	BASELINE	No exactly one odd physical edge for n at least 18	V	N1	FORMALIZED_EXACT	VALIDATION_003_KERNEL_PASS	baseline:T11	1	No assumed decomposition certificate
+T12a	BASELINE	For n at least 5 two odd physical edges force even odd-target count	V	N1	FORMALIZED_EXACT	VALIDATION_003_KERNEL_PASS	baseline:T12a	1	Parity conclusion only
+T12b	BASELINE	Order 18 excludes exactly two odd physical edges	V	N1	FORMALIZED_EXACT	VALIDATION_003_KERNEL_PASS	baseline:T12b	1	Does not exclude counts 3 through 15
+C17	BASELINE	Order-18 odd physical-edge count is not 17	V	N1	FORMALIZED_EXACT	VALIDATION_003_KERNEL_PASS	baseline:C17	1	Auxiliary finite-band input
+F1	BASELINE	Safe adjacent/disjoint first-edge split	V	N1	FORMALIZED_EXACT	VALIDATION_003_KERNEL_PASS	baseline:F1	1	Not the full eight-row dossier
+F4	BASELINE	Every-edge hole cardinality spectra and moments through degree 3	V	N1	FORMALIZED_EXACT	VALIDATION_003_KERNEL_PASS	baseline:F4	1	No realization converse
+F9a	BASELINE	Even-component halving indexed odd bridges and quotient tree	V	N1	FORMALIZED_EXACT	VALIDATION_003_KERNEL_PASS	baseline:F9a	4	Forward construction only
+F9b	BASELINE	Canonical quotient route with actual ports and half-rank formulas	V	N1	FORMALIZED_EXACT	VALIDATION_003_KERNEL_PASS	baseline:F9b	3	No marginal-support replacement
+F9c	BASELINE	Indexed pair partition and polynomial decomposition	V	N1	FORMALIZED_EXACT	VALIDATION_003_KERNEL_PASS	baseline:F9c	6	Exact indexed fibres
+F9d	BASELINE	Coefficientwise odd/even quotient identities	V	N1	FORMALIZED_EXACT	VALIDATION_003_KERNEL_PASS	baseline:F9d	1	No realization criterion
+F9e	BASELINE	Forward two-port coordinate identities	V	N1	FORMALIZED_EXACT	VALIDATION_003_KERNEL_PASS	baseline:F9e	2	Repeated ports allowed; no converse
+D3a	BASELINE	No normalized weighted-path presentation for order at least 5	V	N1	FORMALIZED_EXACT	VALIDATION_003_KERNEL_PASS	baseline:D3a	1	Graph-level obstruction
+D3b	BASELINE	Physical weights not the full initial interval for order at least 5	V	N1	FORMALIZED_EXACT	VALIDATION_003_KERNEL_PASS	baseline:D3b	1	Spanning-path adapter included
+D4a0	BASELINE	Exact one-leaf tail characterization	V	N1	FORMALIZED_EXACT	VALIDATION_003_KERNEL_PASS	baseline:D4a0	3	Actual literal operation
+D4a	BASELINE	No unchanged literal one-leaf attachment for base order at least 4	V	N1	FORMALIZED_EXACT	VALIDATION_003_KERNEL_PASS	baseline:D4a	1	Exact edge-set operation
+D4a2	BASELINE	Exact positive small-order literal-leaf boundary	V	N1	FORMALIZED_EXACT	VALIDATION_003_KERNEL_PASS	baseline:D4a2	6	Only base orders 2 and 3 beyond separate order-1 convention
+D4b	BASELINE	No literal weight-preserving subdivision	V	N1	FORMALIZED_EXACT	VALIDATION_003_KERNEL_PASS	baseline:D4b	1	Retains old weights
+D4c	BASELINE	No literal unscaled bridge of two nontrivial Leech trees	V	N1	FORMALIZED_EXACT	VALIDATION_003_KERNEL_PASS	baseline:D4c	1	Both orders at least 2
+D5a	BASELINE	Range obstruction for unchanged-subtree extensions	V	N1	FORMALIZED_EXACT	VALIDATION_003_KERNEL_PASS	baseline:D5a	2	Explicit embedding and indexed metric
+D5c	BASELINE	No two-new-vertex unchanged-subtree extension for base order at least 5	V	N1	FORMALIZED_EXACT	VALIDATION_003_KERNEL_PASS	baseline:D5c	1	Generic k equals 2 corollary
+D5b	BASELINE	No order-18 unchanged-subtree extension by 2 through 7 vertices	V	N1	FORMALIZED_EXACT	VALIDATION_003_KERNEL_PASS	baseline:D5b	1	Exact k interval
+G001	EXPANDED	Full eight-row first-edge dossier and order-18 cut corollaries	V	N1	FORMALIZED_EXACT	VALIDATION_003_KERNEL_PASS	expanded:G001	10	Local prefix theorem; not global exclusion
+G002	EXPANDED	Sorted physical-rank puncturing and equality/parity refinements	V	N1	FORMALIZED_EXACT	VALIDATION_003_KERNEL_PASS	expanded:G002	7	Necessary structure
+G003	EXPANDED	Signed cut moments and order-18 imbalance consequence	V	N1	FORMALIZED_EXACT	VALIDATION_003_KERNEL_PASS	expanded:G003	5	Necessary structure
+G004	EXPANDED	Actual path-segment rank statistics and variance equality	V	N1	FORMALIZED_EXACT	VALIDATION_003_KERNEL_PASS	expanded:G004	8	Actual contiguous paths
+G005	EXPANDED	Actual selected-edge quotient gluing decomposition	V	N1	FORMALIZED_EXACT	VALIDATION_003_KERNEL_PASS	expanded:G005	6	Actual ports and indexed ranks
+G006	EXPANDED	Exact two-cut four-bin moments and subset-DP equivalence	V	N1	FORMALIZED_EXACT	VALIDATION_003_KERNEL_PASS	expanded:G006	15	Finite equivalence internal to theorem
+G007	EXPANDED	Hop allocation double count rearrangement and parity partition	V	N1	FORMALIZED_EXACT	VALIDATION_003_KERNEL_PASS	expanded:G007	13	Necessary structure
+G008	EXPANDED	Odd-quotient capacity diameter-12 boundary and signed merges	V	N1	FORMALIZED_EXACT	VALIDATION_003_KERNEL_PASS	expanded:G008	8	Actual quotient routes
+G009	EXPANDED	Joint signed-cut-flow iff and total -4 specialization	V	N1	FORMALIZED_EXACT	VALIDATION_003_KERNEL_PASS	expanded:G009	2	Actual rooted data
+G010	EXPANDED	Exact named three-port median guard	V	N1	FORMALIZED_EXACT	VALIDATION_003_KERNEL_PASS	expanded:G010	5	Named median only
+G011	EXPANDED	Parity multicut rearrangement and signed second moment -11781	V	N1	FORMALIZED_EXACT	VALIDATION_003_KERNEL_PASS	expanded:G011	9	Necessary structure
+G012	EXPANDED	Allowed-rank sets capacitated Hall iff and shared tails	V	N1	FORMALIZED_EXACT	VALIDATION_003_KERNEL_PASS	expanded:G012	32	Abstract-slot Hall scope
+G013	EXPANDED	Same-color injection above q2 and sharp G cap	V	N1	FORMALIZED_EXACT	VALIDATION_003_KERNEL_PASS	expanded:G013	5	Necessary quotient profile
+G014	EXPANDED	H companion caps equality path/port and modulo truncation	V	N1	FORMALIZED_EXACT	VALIDATION_003_KERNEL_PASS	expanded:G014	3	Only modulo-X^t truncation
+G015	EXPANDED	Exactly-two-odd q at most 10 q not 7 and distinct-port q at most 6	V	N1	FORMALIZED_EXACT	VALIDATION_003_KERNEL_PASS	expanded:G015	10	Exactly-two-odd scope
+G016	EXPANDED	Common-middle-port obstruction for n at least 36 and parity-order families	V	N1	FORMALIZED_EXACT	VALIDATION_003_KERNEL_PASS	expanded:G016	10	No arbitrary-port global exclusion
+G017	EXPANDED	Block-lift gadget and 153-form obstruction/reduction package	V	N1	FORMALIZED_EXACT	VALIDATION_003_KERNEL_PASS	expanded:G017	11	Named architectures
+G018	EXPANDED	No positive-integral odd complete-rooted-star-block lift for odd q greater than 1	V	N1	FORMALIZED_EXACT	VALIDATION_003_KERNEL_PASS	expanded:G018	4	Exact architecture only
+G019	EXPANDED	Scalar Gaussian certificates for component counts 4 through 18	V	N1	FORMALIZED_EXACT	VALIDATION_003_KERNEL_PASS	expanded:G019	4	Scalar-only; no tree realization
+G020	EXPANDED	Three-anchor coordinates and named-median parent reconstruction	V	N1	FORMALIZED_EXACT	VALIDATION_003_KERNEL_PASS	expanded:G020	4	Scoped converse only
+G021	EXPANDED	OpenMultiport three-odd actual realization and unique optional-parent master	V	N1	FORMALIZED_EXACT	VALIDATION_003_KERNEL_PASS	expanded:G021	7	OpenMultiport branch only
+G022	EXPANDED	Actual four-odd quotient relabeling to P5 fork or star and explicit K-form target	V	N1	FORMALIZED_EXACT	VALIDATION_003_KERNEL_PASS	expanded:G022	9	No census or feasibility conclusion
+G023	EXPANDED	Conditional q67/q66 atoms A through H with corrected ranges	V	N1	FORMALIZED_EXACT	VALIDATION_003_KERNEL_PASS	expanded:G023	52	Conditional atoms only
+G024	EXPANDED	Counterexamples to reversed below-q2 marginal-flow gluing and histogram determination	V	N1	FORMALIZED_EXACT	VALIDATION_003_KERNEL_PASS	expanded:G024	20	Counterexample scope only
+C001	COMPUTATIONAL	Order-18 25 <= Q <= 68	U	N1	NOT_FORMALIZED	NO_KERNEL_CREDIT	computational:C001	0	Strict complete dual validation absent
+C002	COMPUTATIONAL	Order-18 3 <= r <= 15 with r16 frontier	U	N1	NOT_FORMALIZED	NO_KERNEL_CREDIT	computational:C002	0	Strict complete dual validation absent
+C003	COMPUTATIONAL	Distinct-port q5/q6 and order-25 two-odd chain	U	N1	NOT_FORMALIZED	NO_KERNEL_CREDIT	computational:C003	0	No complete dual-bound union
+C004	COMPUTATIONAL	720 three-odd models and ten masters	U	N1	NOT_FORMALIZED	NO_KERNEL_CREDIT	computational:C004	0	Solver gates UNKNOWN
+C005	COMPUTATIONAL	Four-odd censuses and fifteen profile exclusions	U	N1	NOT_FORMALIZED	NO_KERNEL_CREDIT	computational:C005	0	No complete dual certificate
+C006	COMPUTATIONAL	Common-center K1,k assignment exclusions	U	N1	NOT_FORMALIZED	NO_KERNEL_CREDIT	computational:C006	0	No dual spectrum binding
+C007	COMPUTATIONAL	314330 rooted profiles and 11179 cut histograms	U	N1	NOT_FORMALIZED	NO_KERNEL_CREDIT	computational:C007	0	No dual strict validators
+C008	COMPUTATIONAL	Seven terminal weight-21 children of named root	U	N1	NOT_FORMALIZED	NO_KERNEL_CREDIT	computational:C008	0	No dual strict validators
+C009	COMPUTATIONAL	Named six-P3 seed and branch closures	U	N1	NOT_FORMALIZED	NO_KERNEL_CREDIT	computational:C009	0	Union incomplete
+C010	COMPUTATIONAL	Q19 through Q24 terminal union	U	N1	NOT_FORMALIZED	NO_KERNEL_CREDIT	computational:C010	0	Second strict implementation absent
+C011	COMPUTATIONAL	Q69+ seven-domain chain	U	N1	NOT_FORMALIZED	NO_KERNEL_CREDIT	computational:C011	0	Dual binding absent
+C012	COMPUTATIONAL	4096 four-rooted-order-4-block instances excluded	U	N1	NOT_FORMALIZED	NO_KERNEL_CREDIT	computational:C012	0	Exact source/domain rebind absent
+C013	COMPUTATIONAL	Named topology prefix suffix and local closures	U	N1	NOT_FORMALIZED	NO_KERNEL_CREDIT	computational:C013	0	No unified exact domain
+C014	COMPUTATIONAL	n36 P3 mod6 and fixed mod20 nonliftability	U	N1	NOT_FORMALIZED	NO_KERNEL_CREDIT	computational:C014	0	Narrow finite evidence only
+C015	COMPUTATIONAL	Residue-weighted q5 rooted-isomorphism orbit	U	N1	NOT_FORMALIZED	NO_KERNEL_CREDIT	computational:C015	0	Not dual-bound
+C016	COMPUTATIONAL	Named n49 complete-block closures	U	N1	NOT_FORMALIZED	NO_KERNEL_CREDIT	computational:C016	0	Limited domains
+C017	COMPUTATIONAL	Two-port recurrence through component order 9	U	N1	NOT_FORMALIZED	NO_KERNEL_CREDIT	computational:C017	0	Table is not dual validation
+C018	COMPUTATIONAL	Compiled/reference signature-stream equality	U	N1	NOT_FORMALIZED	NO_KERNEL_CREDIT	computational:C018	0	Implementation fact not exclusion
+C019	COMPUTATIONAL	Repeated-q7 and qg3 signing/prefix deaths	U	N1	NOT_FORMALIZED	NO_KERNEL_CREDIT	computational:C019	0	Limited closures
+C020	COMPUTATIONAL	V14 census and six partial shards	U	N1	NOT_FORMALIZED	NO_KERNEL_CREDIT	computational:C020	0	Interrupted union
+C021	COMPUTATIONAL	Q25 joint/chain relations and partial intervals	U	N1	NOT_FORMALIZED	NO_KERNEL_CREDIT	computational:C021	0	No complete closure
+C022	COMPUTATIONAL	Order-38 n49 support and nonseparability restrictions	U	N1	NOT_FORMALIZED	NO_KERNEL_CREDIT	computational:C022	0	Atomization and strict rebind absent
+H1	HOLD	Balanced weight-67 and 66 exploratory algebra	U	N1	NOT_FORMALIZED	NO_KERNEL_CREDIT	hold:H1	0	Interrupted classification
+H2	HOLD	Unique-largest order-18 9-67 branch	U	N1	NOT_FORMALIZED	NO_KERNEL_CREDIT	hold:H2	0	Proof-critical terminal absent
+H3	HOLD	Odd-quotient realization converse	U	N1	NOT_FORMALIZED	NO_KERNEL_CREDIT	hold:H3	0	Forward representation only
+P0	OPEN	Original n >= 18 existence or universal nonexistence problem	OPEN	N1	OUTSIDE_THEOREM_CREDIT	NO_KERNEL_CREDIT	open:P0	0	No witness and no universal obstruction

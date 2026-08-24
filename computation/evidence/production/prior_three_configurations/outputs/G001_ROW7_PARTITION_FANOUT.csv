@@ -1,0 +1,9 @@
+parent_depth,parent_key,expected_valid_children,verification_status,notes
+3,root,5,VERIFIED,"unfiltered canonical row-7 seed; five weight-7 orbit children"
+4,0,3,VERIFIED,"--root-branch 0 --stop-edges 5; child_max 4:3"
+4,1,3,VERIFIED,"--root-branch 1 --stop-edges 5; child_max 4:3"
+4,2,2,VERIFIED,"--root-branch 2 --stop-edges 5; child_max 4:2"
+4,3,2,VERIFIED,"--root-branch 3 --stop-edges 5; child_max 4:2"
+4,4,10,VERIFIED,"--root-branch 4 --stop-edges 5; child_max 4:10"
+5,4_9,16,VERIFIED,"--branch-path 4,9 --stop-edges 6; child_max 5:16"
+6,4_9_15,23,VERIFIED,"--branch-path 4,9,15 --stop-edges 7; child_max 6:23; aggregate job terminated abnormally and is excluded"

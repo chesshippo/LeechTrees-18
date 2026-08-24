@@ -1,0 +1,68 @@
+LICENSING FOR THE ORDER-18 LEECH-TREE COMPUTER-ASSISTED PROOF
+
+This repository uses different licenses for different categories of material.
+The licenses are assigned by the role of a file, not merely by its filename
+extension. They are not alternative licenses for the same material.
+
+1. SOFTWARE: APACHE LICENSE 2.0
+
+Unless a file is identified as third-party material or carries a different
+license notice, project-authored software is licensed under the Apache License,
+Version 2.0 (SPDX identifier: Apache-2.0). This category includes:
+
+* Lean source files and formalization software;
+* C and C++ source and header files;
+* Python source files;
+* shell, PowerShell, batch, build, orchestration, and verification scripts;
+* project-authored solver and verifier software, in source or executable form;
+* build-system and machine-readable configuration files whose primary purpose
+  is to build, run, test, or verify that software.
+
+The complete terms are in LICENSES/Apache-2.0.txt and at
+https://www.apache.org/licenses/LICENSE-2.0.
+
+2. RESEARCH MATERIALS: CREATIVE COMMONS ATTRIBUTION 4.0 INTERNATIONAL
+
+Unless a file is identified as third-party material or carries a different
+license notice, project-authored non-software research materials are licensed
+under the Creative Commons Attribution 4.0 International Public License
+(SPDX identifier: CC-BY-4.0). This category includes:
+
+* computational evidence and preserved search results;
+* input and output data, partition plans, and partition-root data;
+* certificates, receipts, logs, transcripts, manifests, and result records;
+* documentation, mathematical exposition, catalogues, and metadata; and
+* figures, diagrams, and other visual material.
+
+The complete terms are in LICENSES/CC-BY-4.0.txt and at
+https://creativecommons.org/licenses/by/4.0/legalcode.
+
+For attribution, cite the work as "Order-18 Leech-tree computer-assisted
+proof," credit the LeechTrees research contributors, identify the version or
+commit used, link to the public source when one exists, and indicate whether
+changes were made.
+
+3. SCOPE RULES AND EXCEPTIONS
+
+* File-level license notices take precedence over this repository-level map.
+* A project-authored source-code file remains Apache-2.0 even when preserved
+  inside an evidence or archival directory.
+* Documentation and evidentiary records remain CC-BY-4.0 even when located
+  beside software.
+* A machine-readable file used as executable/build configuration is
+  Apache-2.0; a machine-readable file recording inputs, outputs, provenance,
+  receipts, manifests, or results is CC-BY-4.0.
+* A mixed archive or Git bundle is not assigned one blanket license. Each
+  contained file follows these rules after extraction.
+* The text of the license files is supplied as the applicable legal text and
+  is not itself relicensed by this notice.
+* These grants apply only to material for which the applicable rights holders
+  have authority to grant the stated license. Third-party components retain
+  their own copyright and license terms. In particular, the retained MinGW
+  runtime DLLs are excluded from these project licenses. See
+  THIRD_PARTY_NOTICES.md.
+* Trademarks, personal data, privacy rights, and rights of publicity are not
+  licensed except to the extent expressly provided by the applicable license.
+
+Copyright in individual contributions remains with the applicable copyright
+holders.

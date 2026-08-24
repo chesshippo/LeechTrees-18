@@ -1,0 +1,15 @@
+PROFILE_SET=row1_split79_v1
+CHILD=19
+BRANCH_PATH=2,9,15,22,19
+SOLVER_SHA256=5F50BEC4D18947680EE170BF22AF747D1E74EA203E34E305EAE27768439B46AD
+SOURCE_SHA256=134373D19AD4B1B1DFB30595F73BEABCEF30FA21C19B74A652669FB7705A72D9
+PLAN_SHA256=3CAC29583013A86A5951CB85B846F634EFA9E5791C55D4A3D59EF9E65A68C316
+FANOUT_SHA256=BCFA8A6AE25CEB7CCEC9597C7ABBEE9FF924060F8400DD09E47EAB2A33D4D58E
+START configuration=baseline started_local=2026-08-16T15:07:11.5537234-04:00
+arguments=--mode g001_row1 --branch-path 2,9,15,22,19 --stop-edges 12
+END configuration=baseline exit_code=0 wall_seconds=0.5945481 ended_local=2026-08-16T15:07:12.1491459-04:00
+RESULT configuration=baseline RESULT mode=g001_row1 status=FRONTIER nodes=27636 states=27403 generated=175860 duplicate=0 collision=148147 range=0 parity=233 diameter=0 g002=0 cutlower=0 cutupper=0 late_t9a=0 solution_topologies=0 depth=3:1,4:1,5:1,6:1,7:1,8:1,9:15,10:214,11:2433,12:24968, root_valid=3 frontier=24743 frontier_mex=19:17606,21:558,22:2516,23:2046,24:949,25:487,26:359,27:115,28:32,29:37,30:1,31:12,32:4,33:7,34:12,36:2, frontier_odd=4:1339,5:22475,6:929, frontier_q3=11:24743, child_max=3:3,4:10,5:16,6:23,7:31,8:15,9:32,10:44,11:56,
+START configuration=cover started_local=2026-08-16T15:07:12.1953160-04:00
+arguments=--mode g001_row1 --branch-path 2,9,15,22,19 --stop-edges 12 --multi-edge-cover --multi-edge-cover-no-hall --multi-edge-cover-max-components 6 --multi-edge-cover-budget 100 --multi-edge-cover-no-exact-hall
+END configuration=cover exit_code=0 wall_seconds=22.3523411 ended_local=2026-08-16T15:07:34.5489491-04:00
+RESULT configuration=cover RESULT mode=g001_row1 status=FRONTIER nodes=25421 states=15831 generated=151979 duplicate=0 collision=126481 range=0 parity=231 diameter=0 g002=0 cutlower=0 cutupper=0 late_t9a=0 solution_topologies=0 depth=3:1,4:1,5:1,6:1,7:1,8:1,9:15,10:214,11:2316,12:22870, root_valid=3 frontier=13532 frontier_mex=19:10060,21:426,22:1314,23:988,24:362,25:190,26:127,27:45,28:13,29:2,31:2,33:1,36:2, frontier_odd=4:592,5:12511,6:429, frontier_q3=11:13532, multi_cover=on cover_checks=25190 cover_skipped=6 cover_skipped_full=2293 cover_local_slots=50243 cover_local_patterns=50129 cover_slots=284350 cover_patterns=1092781 cover_candidates=73556749 cover_no_candidate=4465 cover_hall_fail=0 cover_exact_calls=18426 cover_exact_fail=4894 cover_exact_pass=0 cover_exact_budget=13532 cover_exact_cap=0 cover_exact_states=1519229 cover_exact_hall_fail=0 cover_validation_fail=0 cover_shadow_reject=0 child_max=3:3,4:10,5:16,6:23,7:31,8:15,9:32,10:44,11:56,
