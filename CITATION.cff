@@ -3,9 +3,11 @@ message: "Please cite this repository and identify the exact release or commit u
 type: software
 title: "Nonexistence of an order-18 Leech tree: computer-assisted proof"
 authors:
-  - name: "chesshippo"
-version: "1.0.0"
+  - family-names: "Ghodsi"
+    given-names: "Maseeh"
+version: "1.0.1"
 date-released: 2026-08-24
+repository-code: "https://github.com/chesshippo/LeechTrees-18"
 abstract: >-
   Lean structural formalization, exhaustive-search source and partition plans,
   preserved certificates, and end-to-end verification and recomputation

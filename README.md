@@ -1,5 +1,10 @@
 # Nonexistence of an order-18 Leech tree
 
+**Author: Maseeh Ghodsi**
+
+The order-18 nonexistence result and computer-assisted proof presented in this
+repository were obtained by Maseeh Ghodsi.
+
 This repository contains a computer-assisted proof of the following result:
 
 > There is no finite simple tree on 18 vertices, with a strictly positive
